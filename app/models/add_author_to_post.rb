@@ -1,0 +1,2 @@
+class AddAuthorToPost < ApplicationRecord
+end

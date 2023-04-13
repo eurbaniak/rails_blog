@@ -1,2 +1,5 @@
 class Post < ApplicationRecord
-end
+
+    attribute :author, :string
+  end
+  
