@@ -30,7 +30,7 @@ class Api::PostsController < ApplicationController
       def destroy
         @post = Post.find(params[:id])
         @post.destroy
-        head :no_content
+        render json: { message: "Post successfully deleted" }, status: :ok
       end
       
       private
